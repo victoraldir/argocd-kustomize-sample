@@ -1,0 +1,8 @@
+---
+bases:
+- ../../base
+namespace: prod
+patchesStrategicMerge:
+- configmap.yml
+- deployment.yml
+namePrefix: prod-
